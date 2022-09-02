@@ -1,0 +1,16 @@
+body{
+    width: 350px;
+    height: 350px;
+    background-color: azure;
+    display: flex;
+    justify-content: ceneter;
+}
+p{
+    display: inner-flex;
+    margin: auto 10px;
+    font-size: 22px;
+    color: blueviolet;
+    border-radius: 6px;
+    border: 1px solid lightblue;
+    padding: 10px;
+}

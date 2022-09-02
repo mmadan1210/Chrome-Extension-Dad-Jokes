@@ -1,15 +1,25 @@
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    60%  {background-color: blue;}
+    100% {background-color: white;}
+  }
 body{
     width: 350px;
     height: 350px;
-    background-color: azure;
+    background-image: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(255,0,0,1));
     display: flex;
     justify-content: ceneter;
+    animation-name : example;
+    animation-duration: 20s;
+    
 }
+    
 p{
     display: inner-flex;
     margin: auto 10px;
     font-size: 22px;
-    color: blueviolet;
+    color: white;
     border-radius: 6px;
     border: 1px solid lightblue;
     padding: 10px;
